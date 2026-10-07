@@ -144,7 +144,7 @@ entity:SetCallback("OnSpawned", function()
                     end
                 end
             end
-            task.wait(0.3) -- UPDATED: Fires the damage tick exactly every 0.8 seconds
+            task.wait(0.8) -- UPDATED: Fires the damage tick exactly every 0.8 seconds
         end
     end)
     
